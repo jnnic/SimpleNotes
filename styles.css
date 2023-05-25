@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+#noteList {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* add alignment */
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px; /* add rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* add subtle shadow */
+    font-size: 16px; /* adjust font size */
+    outline: none; /* remove outline */
+}
+
+button {
+    background: linear-gradient(to right, #3498db, #2980b9); /* add gradient color */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* increase padding */
+    border-radius: 20px; /* add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* add transition for transform */
+    font-size: 16px; /* adjust font size */
+    outline: none; /* remove outline */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* add subtle shadow */
+}
+
+button:hover {
+    transform: scale(1.05); /* add scale effect on hover */
+}
+
+button:active {
+    background: #2c3e50;
+    transform: scale(0.95); /* add scale effect on active */
+}
+
+.note-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.note-text {
+    max-width: 80%;
+    word-wrap: break-word;
+    font-size: 16px;
+    color: white; /* change note text color to white to contrast with the gradient background */
+    background: linear-gradient(to right, #3498db, #2980b9); /* add gradient color */
+    padding: 10px;
+    border-radius: 20px; /* add rounded corners */
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1); /* add subtle shadow */
+}
+
+
+.delete {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
